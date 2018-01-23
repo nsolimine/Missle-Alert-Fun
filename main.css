@@ -42,10 +42,16 @@ table {
 	border-spacing: 0;
 }
 
+/*------------------------------------------------------*/
 
+html {
+  font-family: myfirstfont;
+  color: red;
+}
 
 @font-face {
-
+  font-family: "myfirstfont";
+  src: url("DKCrayonCrumble.ttf");
 }
 
 img {
@@ -54,7 +60,7 @@ img {
 }
 
 main {
-
+background-color: teal;
 }
 
 h1 {
@@ -69,6 +75,12 @@ h2 {
   justify-content: center;
   font-size: 3rem;
   padding: 1rem;
+  color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: red;
 }
 
 ul {
@@ -79,8 +91,9 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 0.5rem;
+  color: pink;
 }
 
 
